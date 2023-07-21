@@ -1,0 +1,217 @@
+@media only screen and (min-width:1200px) {
+    .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .promo-box-top-text h2 {
+        font-size: 50px;
+    }
+    .promo-box-bottom-text {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .single-step:nth-child(4) {
+        margin: 80px auto 0 30%;
+    }
+    .subscribe {
+        flex-wrap: wrap;
+    }
+    .subscribe input[type=submit] {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .subscribe input[type=email] {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .header-contact {
+        margin-left: auto;
+    }
+    .navbar-collapse {
+        position: absolute;
+        background: #fff;
+        left: 0;
+        right: 0;
+        top: 65px;
+        z-index: 9;
+        padding: 0 38px;
+    }
+    .token-box-list,
+    .promo-box-top,
+    .promo-box-bottom {
+        display: block;
+    }
+    .promo-box-top-image {
+        width: 100%;
+    }
+    .promo-box-top-image img {
+        width: 1000%;
+    }
+    .promo-box-bottom-image {
+        width: 100%;
+    }
+    .solution-box {
+        display: block;
+        padding: 30px;
+        position: relative;
+        top: auto !important;
+        margin: 0 0 20px;
+    }
+    .solution-image {
+        max-width: 100%;
+        height: 500px;
+        margin: 0 0 20px;
+    }
+    .promotion-text {
+        min-height: auto;
+    }
+    .step-box {
+        max-width: 400px;
+        margin: 50px auto 0;
+    }
+    .step-text {
+        max-width: initial;
+    }
+    .f-2xl,
+    .contact-box h2 {
+        font-size: 50px;
+    }
+    .faq-title {
+        margin-bottom: 50px;
+    }
+    .git-quote {
+        display: block;
+        margin-top: -150px;
+        width: 100%;
+    }
+    .git-quote-image {
+        max-width: 200px;
+    }
+    .video-box video {
+        height: 260px;
+        margin: 0 auto 50px;
+    }
+    .subscribe input[type=email] {
+        background-position: left 15px center;
+    }
+    .social-box {
+        margin: 20px auto;
+    }
+    .html-embed.w-embed.mt-3 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header-contact span {
+        display: none;
+    }
+    .hero-text h2 {
+        font-size: 34px;
+    }
+    .hero-text {
+        font-size: 14px;
+    }
+    .hero-button .btn {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+    .cgpt-box ul li {
+        flex: 0 0 33.33%;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .token-box-left {
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    .token-box:last-child {
+        border-right: 1px solid #181818;
+    }
+    .pt-140 {
+        padding-top: 50px !important;
+    }
+    .promo-box-top-text h2 {
+        font-size: 24px;
+    }
+    .promo-box-bottom-text {
+        padding: 20px;
+    }
+    .promo-box:before {
+        display: none;
+    }
+    .section-area {
+        padding-bottom: 30px;
+        padding-top: 40px;
+    }
+    .section-title h2 {
+        font-size: 25px;
+    }
+    .section-title {
+        margin: 0 0 20px;
+    }
+    .solution-image {
+        height: auto;
+    }
+    .mb-120 {
+        margin-bottom: 50px !important;
+    }
+    .f-2xl,
+    .contact-box h2 {
+        font-size: 31px;
+    }
+    .step-text h2 {
+        line-height: 35px;
+    }
+    .video-list.owl-carousel .owl-nav,
+    .post-list.owl-carousel .owl-nav {
+        top: -80px;
+        width: 100%;
+        justify-content: center;
+    }
+    .single-post {
+        width: 100%;
+    }
+    .single-video {
+        min-width: 100%;
+    }
+    .contact-box ul {
+        flex-wrap: wrap;
+    }
+    .client-list ul {
+        flex-wrap: wrap;
+    }
+    .video-box {
+        text-align: center;
+    }
+    .video-text {
+        padding-left: 0;
+    }
+    .video-promo ul {
+        -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    }
+    .git-quote {
+        margin-top: 0;
+    }
+    .video-text h2:before {
+        display: none;
+    }
+    .integration-list {
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    .single-integration a {
+        height: 100%;
+        width: 100%;
+    }
+    .footer-area {
+        padding: 50px 0 20px;
+    }
+}
